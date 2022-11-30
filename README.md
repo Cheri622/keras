@@ -1,7 +1,7 @@
 # A comparison of accuracy of 4 pre-trained models
 
 ## Explanation:<br />  
-### a series of optional experiments for a comparison of accuracy of 4 pre-trained models:  vgg16, ResNet50, EfficientNetB7 and InceptionV3, all based on dataset of Cat and Dog Images (kaggle).<br />I optionally adopted StratifiedKFold for learning improvement and adopted ReduceLROnPlateau to reduce learning rate when a metric has stopped improving. Models often benefit from reducing the learning rate by a factor of 2-10 once learning stagnates.<br />The other important callback is ModelCheckpoint which is used for storing the weights of the model after training. I save only the best weights of the model by specifying save_best_only=True.<br />It is an on-going project, needs further organization.
+### A series of optional experiments for a comparison of accuracy of 4 pre-trained models:  vgg16, ResNet50, EfficientNetB7 and InceptionV3, all based on dataset of Cat and Dog Images (kaggle).<br />I optionally adopted StratifiedKFold for learning improvement and adopted ReduceLROnPlateau to reduce learning rate when a metric has stopped improving. Models often benefit from reducing the learning rate by a factor of 2-10 once learning stagnates.<br />The other important callback is ModelCheckpoint which is used for storing the weights of the model after training. I save only the best weights of the model by specifying save_best_only=True.<br />It is an on-going project, needs further organization.
 
 
 experiment data gathered are as following:
