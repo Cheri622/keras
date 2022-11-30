@@ -2,12 +2,9 @@ Project name: a comparison of accuracy of 4 pre-trained models
 
 Explanation:
 a series of optional experiments for a comparison of accuracy of 4 pre-trained models:
-vgg16, ResNet50, EfficientNetB7 and InceptionV3
-all based on dataset of Cat and Dog Images (kaggle)
-optionally adopting StratifiedKFold for learning improvement
-adopting ReduceLROnPlateau: Reduce learning rate when a metric has stopped improving. Models 
-often benefit from reducing the learning rate by a factor of 2-10 once learning stagnates. 
-it is an on-going project, not well organized
+vgg16, ResNet50, EfficientNetB7 and InceptionV3, all based on dataset of Cat and Dog Images (kaggle).
+I optionally adopted StratifiedKFold for learning improvement and adopted ReduceLROnPlateau: Reduce learning rate when a metric has stopped improving. Models often benefit from reducing the learning rate by a factor of 2-10 once learning stagnates. 
+It is an on-going project, needs further organization.
 
 
 experiment data gathered are as following:
